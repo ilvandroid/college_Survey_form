@@ -1,0 +1,184 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <Header>
+        <br>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <h1 id="title"> College Survey </h1>
+    </header>
+</head>
+
+<Body>
+    <p id="description">
+        Fill details below to complete College Survey
+    </p>
+
+    <form id="survey-form">
+
+        <div class="input-headings">
+
+            <label for="name" id="name-label"> Name </label>
+            <input id="name" type="text" name="name" placeholder="Enter Your Name" class="form-inputs" required>
+            </input>
+            <br>
+            <label for="email" id="email-label"> Email </label>
+            <input id="email" type="email" name="email" placeholder="Example@mail.com" class="form-inputs" required>
+            </input>
+            <br>
+            <label for="number" id="number-label"> Age </label>
+            <input id="number" type="number" name="number" min="18" max="100" placeholder="18" class="form-inputs"
+                required> </input>
+            <br>
+            <label for="name" id="name-label"> College Name </label>
+            <input id="name" type="text" name="name" placeholder="Enter College Name" class="form-inputs" required>
+            </input>
+            <br>
+
+            <label for="dropdown" id="model" style="width: 90vw;"> Will you recommend this college to others? </label>
+            <select id="dropdown">
+                <option value="Model_S"> 5 (very likely) </option>
+                <option value="Model_3"> 4</option>
+                <option value="Model_X"> 3</option>
+                <option value="Model_Y"> 2</option>
+                <option value="Model_Y"> 1</option>
+                <option value="Model_Y"> 0 Very unlikely)</option>
+
+
+            </select>
+            <br>
+
+
+            <label for="dropdown" id="model" style="width: 90vw;"> Are you satisfied with the teaching staff and their
+                teaching methods? </label>
+            <select id="dropdown">
+                <option value="Model_S"> Extremely satisfied </option>
+                <option value="Model_3"> Very satisfied</option>
+                <option value="Model_X"> Satisfied</option>
+                <option value="Model_Y"> Neutral </option>
+                <option value="Model_Y"> Dissatisfied</option>
+                <option value="Model_Y"> Extremely dissatisfied</option>
+
+
+            </select>
+            <br>
+            <label for="dropdown" id="model" style="width: 90vw;"> Was it easy to obtain the necessary resources from
+                the college library? </label>
+            <select id="dropdown">
+                <option value="Model_S">Yes </option>
+                <option value="Model_3"> No</option>
+            </select>
+            <br>
+            <label for="dropdown" id="model" style="width: 90vw;"> Do you feel it is easier to register for different
+                courses within the college?</label>
+            <select id="dropdown">
+                <option value="Model_S"> Extremely satisfied </option>
+                <option value="Model_3"> Very satisfied</option>
+                <option value="Model_X"> Satisfied</option>
+                <option value="Model_Y"> Neutral </option>
+                <option value="Model_Y"> Dissatisfied</option>
+                <option value="Model_Y"> Extremely dissatisfied</option>
+
+
+            </select>
+            <br>
+            <label for="dropdown" id="model" style="width: 90vw;"> How supportive were the faculty members?</label>
+            <select id="dropdown">
+                <option value="Model_S"> Extremely supportive</option>
+                <option value="Model_3"> Very supportive</option>
+                <option value="Model_X"> supportive</option>
+                <option value="Model_Y"> Neutral </option>
+                <option value="Model_Y"> Unsupportive</option>
+                <option value="Model_Y"> Very Unsupportive</option>
+
+
+            </select>
+            <br>
+            <label for="dropdown" id="model" style="width: 90vw;"> What do you think of the hostel?
+            </label>
+            <select id="dropdown">
+                <option value="Model_S"> Extremely crowded </option>
+                <option value="Model_3"> Very crowded</option>
+                <option value="Model_X">Somewhat crowded</option>
+                <option value="Model_Y">Not so crowded</option>
+                <option value="Model_Y"> Not at all crowded</option>
+            </select>
+            <br>
+            <label for="dropdown" id="model" style="width: 90vw;"> Given a chance, are you willing to pursue another
+                course at the college?
+            </label>
+            <select id="dropdown">
+                <option value="Model_S"> Definitely, Yes</option>
+                <option value="Model_3"> Probably, Yes</option>
+                <option value="Model_X">Probably, No</option>
+                <option value="Model_Y">Definitely, No</option>
+                <option value="Model_Y"> Can't say</option>
+            </select>
+            <br>
+            <label for="dropdown" id="model" style="width: 90vw;"> Do you think your siblings or friends will be
+                benefited by studying at this college?
+            </label>
+            <select id="dropdown">
+                <option value="Model_S"> Definitely, Yes</option>
+                <option value="Model_3"> Probably, Yes</option>
+                <option value="Model_X">Probably, No</option>
+                <option value="Model_Y">Definitely, No</option>
+                <option value="Model_Y"> Can't say</option>
+            </select>
+            <br>
+
+            <label for="model_color" id="model_color"> <b>How about your overall experience with this college?</b>
+            </label>
+            <br>
+            <input id="model_color" type="radio" name="color" value="black">
+            <label for="" model_color> I don’t have a job </label>
+            <br>
+            <input id="model_color" type="radio" name="color" value="white">
+            <label for="model_color"> No, I manage them both well
+            </label>
+            <br>
+            <input id="model_color" type="radio" name="color" value="red">
+            <label for="" model_color> Yes, but rarely </label>
+            <br>
+            <input id="model_color" type="radio" name="color" value="red">
+            <label for="" model_color> Yes, often </label>
+            <br>
+            <input id="model_color" type="radio" name="color" value="red">
+            <label for="" model_color>Yes, always </label>
+            <br>
+            <br>
+
+            <label for="features"> <b>What do you think about extracurricular activities?</b></label>
+            <br>
+
+            <input id="checkbox" type="checkbox" name="features" value="autopilot">
+            <label for="checkbox"> They are too few</label>
+            <br>
+            <input id="checkbox" type="checkbox" name="features" value="dual_motor">
+            <label for="checkbox"> They are just right</label>
+            <br>
+            <input id="checkbox" type="checkbox" name="features" value="battery">
+            <label for="checkbox"> I was overwhelmed with the number</label>
+            <br>
+            <br>
+
+            <label id="textarea"> Please provide us with additional feedback on areas that need improvement </label>
+            <br>
+            <textarea id="textarea" name="instructions" rows="5" cols="59.5" placeholder="Write something..">
+</textarea>
+            <br>
+            <br>
+
+            <input id="submit" type="submit" value="Submit Form" class="submit-button">
+
+        </div>
+
+    </form>
+
+</body>
+
+
+</html>
